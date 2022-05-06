@@ -1,91 +1,73 @@
 ---
-outdated: true
+outdated: false
 ---
 
 # osu!mania Ranking Kriterien
 
-Merke: Die Osu!Mania Ranking Kriterien beinhalten die kürzlichen Änderungen [durch das Diskussions-Forum](https://osu.ppy.sh/community/forums/87). Jede Regel, die dort diskutiert wird, ist hier so aufgelistet, wie sie momentan gilt und wird erst aktualisiert, wenn die Diskussion eine Einigung erreichen konnte.
+Merke: Die Osu!Mania Ranking Kriterien sind Regeln und Richtlinien, die bei der Erstellung einer osu!mania-spezifischen Beatmap angewendet werden. Um eine osu!mania-spezifische Beatmap den "Ranked" Status zu verleihen, ist es verpflichted diese einzuhalten. Die Regeln sind unter allen Umständen einzuhalten, während die Richtlinen, unter speziellen Umständen und mit ausführlicher Begründung, missachtet werden können. Die Begründung sollte beinhalten, wie die Beatmap durch die Missachtung der betreffenden Richtlinie eine erhöhte Qualität erlangt.
 
-## Übliche Bedingungen
+Regeländerungen, sowie Vorschläge für neue Regeln werden [im Diskussions-Forum](https://osu.ppy.sh/community/forums/87) diskutiert. Jede Regel, die dort diskutiert wird, ist hier so aufgelistet, wie sie momentan gilt und wird erst aktualisiert, wenn die Diskussion eine Einigung erreichen konnte.
+
+##Übersicht
 
 ### Schwierigkeitsgrade
 
-- **EZ** = Einfach (Beginner/Easy/Basic)
-- **NM** = Normal (Light/Normal/Novice)
-- **HD** = Hard (Hyper/Advanced)
-- **MX** = Insane (Another/Exhaust)
-- **SC/SHD** = Extra (Black Another/Expert/Infinite/Gravity)
+*Hauptartikel: [Difficulty Naming](/wiki/Ranking_Criteria/Difficulty_naming)*
 
-### Anderes
+- ![](/wiki/shared/diff/easy-m.png?20211215) Einfach
+- ![](/wiki/shared/diff/normal-m.png?20211215) Normal
+- ![](/wiki/shared/diff/hard-m.png?20211215) Hard
+- ![](/wiki/shared/diff/insane-m.png?20211215) Insane
+- ![](/wiki/shared/diff/expert-m.png?20211215) Expert
 
-- Column = 5K, 5 column. Die mittlere Column wird oft "Step-Column" oder auch "Spezial-Taste" genannt.
+
+### Übliches
+
+- **BPM**: Geschwindigkeit eines Songs in Schläge pro Minute.
+- **Column/Spalten**: Vertikale Linien des Spielfeldes, in welche die Noten platziert werden. Der Editor nutzt `0|1|2|3|4|5|6|7|8|9` als Zeitstempel.
+- **Key Mode/Tastenmodus**: Die Anzahl an Spalten in einem Schwierigkeitsgrad.
+- **Keysounding**: Die Noten eines Songs mit einem bestimmten Sound versehen, der beim Spielen der Note abgespielt wird. Meistens werden hierbei ähnliche oder sogar die gleichen Sounds benutzt, wie in dem gespielten Song.
+- **Slider Velocity/Slider-Geschwindigkeit**: Die Geschwindigkeit mit der die Noten sich im Spielfeld bewegen. Die Basis Slider-Geschwindigkeit (1.0x) ist an den individuellen Scroll speed angepasst. Eigene Veränderungen können durch die grünen Zeitpunkte vorgenommen werden.
+- **Long-term slider velocity/Langzeit Slider-Geschwindigkeit**: Eine Veränderung der Slider-Geschwindigkeit die länger als 4 Messeinheiten lang ist.
+- **Musical phrase/Musikalischer Satz**: Eine einzelne Einheit die üblicher Weise 4 Messeinheiten lang ist.
+- **Short-term slider velocity/Kurzzeit Slider-Geschwindigkeit**: Kurzzeitige Änderung der Slider-Geschwindigkeit, die weniger als 1/2 Beat dauern.
+- **Spread**: Die Ausdehnung einer Beatmap auf alle Schwierigkeitsgrade. Eine Beatmap mit gutem Spread beinhaltet alle Schwierigkeitsgrade für den Song, während eine Beatmap mit schlechtem Spread nur einen Schwierigkeitsgrad besitzt.
+
+##Patterns/Muster
+
+Um die üblich verwendeten Spielmuster zu sehen, besuche die [englische Seite](https://osu.ppy.sh/wiki/en/Ranking_Criteria/osu!mania).
 
 ## Regeln
 
 Die folgenden Regeln sind genau das: REGELN. Es sind keine Richtlinien und sollten unter KEINEN Umständen gebrochen werden!!
 
-### Allgemeines
+- **Der `Auto` Mod muss in der Lage sein volle Punktzahl (1,000,000) in allen Schwierigkeitsgraden zu erlangen.
+- **Zwei Noten können nicht an der selben Stelle, in der selben Spalte, zum selben Zeitpunkt sein.
+- **Keine Spalte darf lern bleiben.** Falls du weniger Tasten verwenden möchtest, dann ändere die Anzahl an Tasten im Song Setup Menu.
+- **Es dürfen niemals mehr als 6 Tasten gleichzeitig platziert werden, wenn es sich um Insane oder niedrigere Schwierigkeitgrade handelt.** Mehr als 6 Noten zu nutzen muss eine vernünftige Verknüpfung im Spread zu dem nächstniedrigeren Schwierigkeitsgrad haben. Diese Regeln gilt nicht für die Enden von lange Noten, da diese losgelassen werden und nicht gedrückt.
+- **Beatmaps können nur 4 bis 10 Tasten verwenden.** Alle anderen Tastenanzahlen sind momentan nicht für den "Ranked" Status erlaubt.
+- **Falls ein Song mehrere Schwierigkeitsgrade mit verschieden Tastenanzahlen hat, dann müssen diese im Namen des Schwierigkeitsgrades versehen werden. Anderenfalls muss die Tastenanzahl nicht enthalten sein.**
+- **Wenn die [Drain Zeit](https://osu.ppy.sh/wiki/de/Gameplay/Drain_time) jedes Schwierigkeitsgrades...
+  - **...unter 2:30 Minuten beträgt**, dann darf der niedrigste Schwierigkeitsgrad von allen genutzten Tastenmodi nicht höher als Normal sein, **ODER** alle Tastenmodi müssen einen Spread haben, welcher mindestens 3 Schwierigkeitsgrade unter der höchsten Schwierigkeit startet.
+  - **...zwischen 2:30 Minuten und 3:15 Minuten beträgt**, dann darf der niedrigste Schwierigkeitsgrad von allen genutzten Tastenmodi nicht höher als Hard sein, **ODER** alle Tastenmodi müssen einen Spread haben, welcher mindestens 2 Schwierigkeitsgrade unter der höchsten Schwierigkeit startet.
+  - **...zwischen 3:15 Minuten und 4:00 Minuten beträgt**, dann darf der niedrigste Schwierigkeitsgrad von allen genutzten Tastenmodi nicht höher als Insane sein, **ODER** alle Tastenmodi müssen einen Spread haben, welcher mindestens 1 Schwierigkeitsgrade unter der höchsten Schwierigkeit startet.
+- Bei Schwierigkeitsgrade von Insane oder höher, wird ein anständiger Spread so definiert, dass alle Schwierigkeitsgrade ähnlich nah aneinander liegen.
 
-- **osu!topus (AutoPlay) muss in allen Schwierigkeitsgraden die volle Punktzahl (1,000,000) erreichen können**.
-- **Es ist nicht erlaubt eine Column leer zu lassen**.
-- **Es ist nicht erlaubt mehr als 6 Tasten gleichzeitig auf einem Timing zu platzieren.**
-
-Mit USB verbundene Tastaturen können mehr als 6 Tasten gleichzeitig nicht erkennen. Diese Regel wurde erstellt um den Spielspaß aller sicherzustellen *Das Ende eines Hold's ist davon nicht betroffen denn sie werden losgelassen, nicht gedrückt*
-
-- **Es ist nicht erlaubt zwei Noten auf der gleichen Column auf dem selben Timing zu platzieren. Es muss immer ein Abstand zur nächsten Note auf der gleichen Column bestehen.**
-- **Letterboxing muss ausgeschaltet sein.** Letterboxing wird in osu!mania nicht unterstützt und gehört deshalb ausgeschaltet.
-
-### Difficulty Spread
-
-- **Jede Beatmap braucht mindestens 2 Schwierigkeitsgrade. Davon muss eine mindestens Easy/Normal sein. Marathons sind davon nicht betroffen**
-- **Schwierigkeitsgrade mit verschiedener zu spielender Tastenzahl müssen als unabhängiger Modus behandelt werden und benötigen jeweils einen eigenen voll Spread.** Deswegen benötigt JEDE Tastenzahl einen eigenen Spread. Als Beispiel: Wenn du 7K Maps in deine Beatmap einfügst brauchst du einen ordentlichen und vollen 7K Spread. Das gleiche gilt für alle anderen Tastenzahlen
-
-### Timing
-
-- **Es ist nicht erlaubt Rote Timing Points zu benutzen wenn sich die BPM im Lied nicht ändert.** In anderen Worten: Es ist nicht erlaubt die Fallgeschwindigkeit der Noten mit einem Roten Timing Point zu verändert. Benutzt dafür die Grünen Inherited Timing Points.
 
 ## Richtlinien
 
 Richtlinien sind wichtig und sollten für alle Beatmaps möglichst befolgt werden. Sie sind keine Regeln und dürfen unter gewissen Umständen missachtet werden. Wenn du vor hast eine dieser Richtlinien zu brechen frage dich erst selbst: Macht das nicht befolgen irgendeinen Sinn? Macht die Map durch das nicht befolgen der Richtlinie mehr Spaß? Wenn die Antwort auf beide fragen Ja lautet ist es in Ordnung die Richtlinien nicht zu beachten.
 
-- Die **Life Drain** rate sollte mindestens bei **7** oder höher liegen um die gleiche HP wie bei IIDX zu erreichen.
-- **Overall Difficulty** sollte wie folgt aussehen:
-
-**9-10** bei Benutzung vieler einfachen Noten mit wenig Holds.
-
-**7-8** bei einem guten Mix aus einfachen Noten und Holds.
-
-**5-6** bei überwiegend vielen Holds.
-
-- **Benutzt Pausen nur wenn sie notwendig sind.** Als Beispiel: Bei absoluter stille im Lied.
-- **Dein Mapset sollte mindestens 2 verschiedene Tastenzahlen beinhalten.** Dies wird empfohlen um mehr Spieler auf dein Set aufmerksam zu machen.
-- **Das benutzen von SV changes ist nur erlaubt bei signifikanten Änderung in der Musik.** Als Beispiel: Die Musik wird stiller/langsamer/ruhiger. Wie stark die SVs geändert werden darf der Mapper selber bestimmen
-- **Verschiedene Tastenzahlen in einem Mapset sollten ein ähnlichen Spread besitzen.** Dies ist um sicher zu stellen das jede Tastenzahl den gleichen Spielspaß bietet.
-
-## xK Referenz
-
-Note: 1K, 2K, 3K und 10K wurden eingefügt, sind momentan jedoch NICHT Rankable Alles ab 10K kann nur im Co-Op Modus gespielt werden.
-
-| Keys (CS) | Game |
-| :-- | :-- |
-| 1K | Vuvu Hero |
-| 2K | O2Jam U (2K) |
-| 3K | TapTap |
-| 4K | Dance Dance Revolution/Stepmania (Single), EZ2ON (RubyMix), O2Jam U (4K) |
-| 5K | pop'n music (5K), O2Jam U (5K), Pump it Up (Single) |
-| 6K | EZ2ON (StreetMix) |
-| 6K (L) | beatmania (P1) |
-| 6K (R) | beatmania (P2) |
-| 7K | O2Jam, pop'n music (7K) |
-| 8K | Dance Dance Revolution/Stepmania (Double), EZ2ON (SpaceMix) |
-| 8K (L) | beatmaniaIIDX (P1) |
-| 8K (R) | beatmaniaIIDX (P2) |
-| 9K | pop'n music, E5 - Dancing Super Station (Single). |
-| 10K | MuziBox, Pump It Up (Double) |
-| 12K | Keyboardmania (Light) |
-| 14K |  |
-| 16K | beatmaniaIIDX (Double) |
-| 18K | E5 - Dancing Super Station (Double). |
-| 20K |  |
-
-Beinhaltet nicht: Keyboardmania (Light+, Real) \[24K\] und (Double) \[48K\].
+- **Jede Note sollte einen entsprechenden Sound repräsentieren.** Hierbei sollte es sich um einen unterscheidbaren Sound handeln, kann aber auch als Repräsentation eines durchgängigen Sounds verwendet werden, wenn das Ende bzw. der Anfang hiervon nicht zu erkennen sind. Ausnahmen zur Vereinfachung sollten gemacht werden, wenn die akkurate Darstellung der Musik...
+   - nicht mit voller Genauigkeit gespielt werden kann.
+   - einen konstanten und voraussichtlichen Snap besitzt.
+   - eine unangemessenen Änderung im Schwierigkeitsgrad erfordert.
+- **Lange Noten sollten mindestens für 1/12 eines Beats gehalten werden.** Kürzere Noten sind unangemessen und nicht mit hoher Genauigkeit zu spielen.
+- **Vermeide es Storyboard Hitsounds zu verwenden, die denselben oder einen ähnlichen Sound zu den richtigen Hitsounds haben.** Storyboard Hitsounds können die Audio der Beatmap übertönen, somit sollte es priorisiert werden, dass Hitsounds direkt auf den Noten platziert werden. Für andere Variationen von Hitsounds kann das Storyboard verwendet werden.
+- **Nutze keine Notentöne ohne hitnormal support.** Wenn die Hitsounds perfekt zu der Musik passen, dann ist das Feedback für den Spieler minimal. Wenn jedoch die Hitsound direkt aus dem Song genommen werden, dann können diese als Ersatz verwendet werden und brauchen keine hitnormal support.
+- **Verhindere es den selben Hitsound für mehrere Noten in einem Akkord zu verwenden.** Dies führt dazu, dass das Feedback lauter als nötig ist und gilt auch für das Verwenden von gleichzeitigen Storyboardhitsounds und normalen Hitsounds.
+- **Slider-Geschwindigkeitsveränderungen sollten einen generallen scroll speed haben.** Merke: Dies verhindert nicht, dass die Slider-Geschwindigkeit durch grüne Zeitstempel verändert wird.
+- **Slider-Geschwindigkeitsveränderung sollen dem Song folgen**
+- **Slider-Geschwindigkeitsveränderung sollten an die Sounds des Songs angepasst sein.
+- **Versuche es zu verhindern, dass du mehrere kurze KIAI-Sektionen hintereinander verwendest.** Dies könnte ablenken und somit das Spielgeschehen beeinflussen.
+- **Pausen sollten nur genutzt werden, wenn der Song sehr leise bzw. pausiert ist.**
